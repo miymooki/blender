@@ -1,0 +1,203 @@
+$jigglebone "ear1_R" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear2_R" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear3_R" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear4_R" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear1_L" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear2_L" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear3_L" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "ear4_L" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 6
+        angle_constraint 65
+        pitch_damping 6
+        pitch_stiffness 30
+		length 50
+	}
+}
+
+$jigglebone "tail1" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail2" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail3" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail4" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail5" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail6" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail7" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail8" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "tail9" {
+	is_flexible {
+        angle_constraint 45
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "FrontHair" {
+	is_flexible {
+        angle_constraint 15
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+$jigglebone "FrontHair_001" {
+	is_flexible {
+        angle_constraint 15
+		yaw_stiffness 30
+		yaw_damping 6
+        pitch_damping 6
+        pitch_stiffness 30
+		length 70
+        
+	}
+}
+

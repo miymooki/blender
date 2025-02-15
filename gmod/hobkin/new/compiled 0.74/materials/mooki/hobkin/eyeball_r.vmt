@@ -1,0 +1,8 @@
+"EyeRefract"
+{
+	"$iris" "mooki/hobkin/iris"
+	"$corneatexture" "mooki/hobkin/white"
+	"$ambientoccltexture" "mooki/hobkin/white"
+	"$halflambert" 1
+	"$envmap" "engine/eye-reflection-cubemap-"
+}
