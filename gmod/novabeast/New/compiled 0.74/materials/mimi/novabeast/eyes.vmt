@@ -1,4 +1,6 @@
-"UnlitGeneric"
+"VertexLitGeneric"
 {
 	"$basetexture" "mimi/novabeast/Eyes"
+	"$selfillum" "1"
+	"$selfillummask" "mimi/novabeast/Eye_Emission"
 }

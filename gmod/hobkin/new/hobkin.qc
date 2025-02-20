@@ -23,18 +23,11 @@ $bodygroup "Top"{
 	blank
 }
 
-$bodygroup "ThighHighs"{
-	studio "ThighHighs"
-	blank
-}
 $bodygroup "Panties"{
 	studio "Panties"
 	blank
 }
-$bodygroup "Warmers"{
-	studio "Warmers"
-	blank
-}
+
 
 $surfaceprop flesh
 $ambientboost

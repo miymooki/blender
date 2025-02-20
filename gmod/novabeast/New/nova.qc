@@ -1,4 +1,4 @@
-$modelname "player/mimi/nova.mdl"
+$modelname "mimi/nova.mdl"
 
 $cdmaterials "mimi/novabeast/"
 
@@ -10,28 +10,9 @@ $model "Body" "Body" {
 	%blink = blink
 }
 
-$bodygroup "PJPants_Jax" {
-    studio "PJPants_Jax"
+$bodygroup "DEKEPP_Outfit" {
+    studio "DEKEPP_Outfit"
 	blank
-}
-$bodygroup "PJShirt_Jax" {
-    studio "PJShirt_Jax"
-	blank
-}
-$bodygroup "TailFluff" {
-	blank
-    studio "TailFluff"
-}
-$bodygroup "ChestFluff" {
-	blank
-    studio "ChestFluff"
-}
-$bodygroup "SwishyHairMesh" {
-    studio "SwishyHairMesh"
-}
-$bodygroup "Wings" {
-	blank
-    studio "Wings"
 }
 
 $surfaceprop flesh
@@ -55,8 +36,8 @@ $ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
 //The first value, 0.5, dictates how high the foot is off the ground. Generally values between 0-1 are acceptable enough, but you can go higher or go lower into the negatives if need be.
 //The second value, 0.1 can be left untouched (or even at 0). This controls the rotation of the foot and isn't really necessary.
 //Copied from CaptainBigButt's post: https://web.archive.org/web/20160608040725/https://facepunch.com/showthread.php?t=1439159
-$ikautoplaylock "rfoot" 0.01 45
-$ikautoplaylock "lfoot" 0.01 45
+$ikautoplaylock "rfoot" 0.05 5
+$ikautoplaylock "lfoot" 0.05 5
 
 //Rename reference_male to reference_female if you're using female pm/npc animation
 $sequence reference "anims/reference_male" fps 1
@@ -87,7 +68,7 @@ $include "physics.qci"
 ////////////////////////////////////////-Playermodel Animation-////////////////////////////////////////////
 
 //Female 
-$includemodel "f_anm.mdl"
+$includemodel "m_anm.mdl"
 
 $jigglebone "Tail1" {
 	is_flexible {
@@ -261,22 +242,284 @@ $jigglebone "ear2_l" {
 		length 50
 	}
 }
-$jigglebone "breast1_l" {
+$jigglebone "maneBack1" {
 	is_flexible {
 		yaw_stiffness 30
-		yaw_damping 8
+		yaw_damping 5
         angle_constraint 65
-        pitch_damping 8
+        pitch_damping 5
         pitch_stiffness 30
 		length 50
 	}
 }
-$jigglebone "breast1_r" {
+$jigglebone "maneBack2" {
 	is_flexible {
 		yaw_stiffness 30
-		yaw_damping 8
+		yaw_damping 5
         angle_constraint 65
-        pitch_damping 8
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneBack1_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneBack2_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneBack1_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneBack2_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower1" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower2" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower1_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower2_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower1_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneLower2_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop1" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop2" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop1_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop2_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop1_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneTop2_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+
+$jigglebone "maneSide1_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneSide2_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneSide1_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneSide2_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+
+$jigglebone "maneUpper2" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneUpper3" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneUpper1_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneUpper2_r" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneUpper1_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
+        pitch_stiffness 30
+		length 50
+	}
+}
+$jigglebone "maneUpper2_l" {
+	is_flexible {
+		yaw_stiffness 30
+		yaw_damping 5
+        angle_constraint 65
+        pitch_damping 5
         pitch_stiffness 30
 		length 50
 	}

@@ -1,13 +1,13 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "mooki/hobkin/Panties_BaseColor"
+		"$bumpmap" "mooki/hobkin/Panties_Normal"
 	"$halflambert" 1		
-	"$phongexponenttexture" "models/humans/facemap_phong"
-
-	"$phongtint" "[0.9 0.8 0.7]"
-	
+	$phong "1"
+	$phongboost "0"
+	$phongexponent "0"
+	$phongfresnelranges		"[ 0 0 0 ]"
 	"$rimlight" "1"
-	"$rimlightboost" "2"
-	"$rimlightexponent" "4"
-	"$rimmask" "1"
+	"$rimlightboost" "12"
+	"$rimlightexponent" "12"
 }
