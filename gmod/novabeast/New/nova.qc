@@ -36,8 +36,8 @@ $ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
 //The first value, 0.5, dictates how high the foot is off the ground. Generally values between 0-1 are acceptable enough, but you can go higher or go lower into the negatives if need be.
 //The second value, 0.1 can be left untouched (or even at 0). This controls the rotation of the foot and isn't really necessary.
 //Copied from CaptainBigButt's post: https://web.archive.org/web/20160608040725/https://facepunch.com/showthread.php?t=1439159
-$ikautoplaylock "rfoot" 0.05 5
-$ikautoplaylock "lfoot" 0.05 5
+$ikautoplaylock "rfoot" 0.03 50
+$ikautoplaylock "lfoot" 0.03 50
 
 //Rename reference_male to reference_female if you're using female pm/npc animation
 $sequence reference "anims/reference_male" fps 1

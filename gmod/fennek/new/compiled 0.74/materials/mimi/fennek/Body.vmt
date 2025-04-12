@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "mimi/fennek/Base Color Body"
+	"$bumpmap" "mimi/fennek/Normal"
+	"$nocull" "1"
+	"$alphatest" "1"
+	"$selfillum" "1"
+	"$selfillummask" "mimi/fennek/Emissive Maxine"
+	$phong "1"
+	$phongboost "0"
+	$phongexponent "0"
+	$phongfresnelranges		"[ 0 0 0 ]"
+	"$rimlight" "1"
+	"$rimlightboost" "12"
+	"$rimlightexponent" "12"
+}
